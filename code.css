@@ -1,0 +1,42 @@
+html {
+overflow:auto;
+}
+div {
+    background-color: white;
+}
+body {
+	background-image: url('img/bg.gif');
+	background-position: 0 1000px;
+	background-size: cover;
+	background-attachment: fixed;
+    background-color: #cccccc;
+}
+.header {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  font: normal 50px/normal "", Helvetica, sans-serif;
+  text-align: center;
+}
+.demo-card-wide.mdl-card {
+  width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('img/editing.png') center / cover;
+}
+
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+.demo-layout-transparent {
+  background: url('../assets/demos/transparent.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+
